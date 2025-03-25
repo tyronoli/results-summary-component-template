@@ -3,8 +3,8 @@
 }
 
 @font-face {
-    font-family: HankenGrotesk-VariableFont_wght;
-    src: url(/results-summary-component-main/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+    font-family: HankenGrotesk;
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 
 @font-face {
@@ -30,8 +30,7 @@ body {
     min-height: 100dvh;
     background-color: hsl(0, 0%, 100%);
     padding: 2em 2em 0 2em;
-    font-family: HankenGrotesk-Medium;
-
+    font-family: HankenGrotesk
 }
 
 .container {
@@ -42,7 +41,6 @@ body {
     box-shadow: 5px 5px 20px rgba(128, 128, 128, .3);
     border: none;
     max-width: 700px;
-    font-family: HankenGrotesk-Medium;
     width: 100%;
 
 }
@@ -91,7 +89,6 @@ body {
 #comment {
     font-weight: bold;
     font-size: 2em;
-    font-family: HankenGrotesk-Medium;
     color: rgba(255, 255, 255);
 }
 
